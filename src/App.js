@@ -18,7 +18,7 @@ function App() {
       <Header/>
       <Router>
       <Switch>
-        <Route path='/'><Home/></Route>
+        <Route exact path='/'><Home/></Route>
         <Route path='/world'><World/></Route>
         <Route path='/countries'><Countries/></Route>
         <Route path='/about'><About/></Route>
