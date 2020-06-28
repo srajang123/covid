@@ -1,0 +1,18 @@
+.covid-nav {
+    background-color: #131313 !important;
+}
+
+.covid-nav .covid-nav-brand {
+    color: #dddddd !important;
+    font-size: 8vh !important;
+}
+
+.covid-nav-item .covid-nav-link {
+    color: #eee !important;
+    font-size: 4vh;
+}
+
+.covid-navbar-nav {
+    position: relative;
+    left: 45%;
+}
