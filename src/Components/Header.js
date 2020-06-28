@@ -1,6 +1,20 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import '../css/Header.css';
 const Header=props=>{
+    let c1,c2,c3,c4;
+    c1=c2=c3=c4='nav-item covid-nav-item';
+    switch(window.location.pathname)
+    {
+        case '/': c1+=' covid-active';
+                  break;
+        case '/world': c2+=' covid-active';
+                break;
+        case '/countries': c3+=' covid-active';
+                    break;
+        case '/about': c4+=' covid-active';
+                break;
+        default: break;
+    }
     return(
         <div className='header'>
             <nav className="navbar navbar-expand-lg navbar-light bg-light covid-nav">
@@ -10,17 +24,17 @@ const Header=props=>{
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto covid-navbar-nav">
-                        <li className="nav-item covid-nav-item active">
-                            <a className="nav-link covid-nav-link" href="/">Home</a>
+                        <li className="nav-item covid-nav-item">
+                            <a className={c1} href="/">Home</a>
                         </li>
                         <li className="nav-item covid-nav-item">
-                            <a className="nav-link covid-nav-link" href="/world">World</a>
+                            <a className={c2} href="/world">World</a>
                         </li>
                         <li className="nav-item covid-nav-item">
-                            <a className="nav-link covid-nav-link" href="/countries">Countries</a>
+                            <a className={c3} href="/countries">Countries</a>
                         </li>
                         <li className="nav-item covid-nav-item">
-                            <a className="nav-link covid-nav-link" href="/about">About</a>
+                            <a className={c4} href="/about">About</a>
                         </li>
                     </ul>       
                 </div>
