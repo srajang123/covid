@@ -10,6 +10,7 @@ import Header from './Components/Header';
 import Countries from './Components/Countries';
 import World from './Components/World';
 import About from './Components/About';
+import Home from './Components/Home';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header/>
       <Router>
       <Switch>
+        <Route path='/'><Home/></Route>
         <Route path='/world'><World/></Route>
         <Route path='/countries'><Countries/></Route>
         <Route path='/about'><About/></Route>
