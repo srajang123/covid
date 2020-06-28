@@ -1,6 +1,7 @@
 .covid-nav {
     background-color: #131313 !important;
     width: 100vw;
+    box-shadow: 0 0 4px 4px #cf5252;
 }
 
 .covid-nav .covid-nav-brand {
