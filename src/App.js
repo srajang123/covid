@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link,Switch,BrowserRouter as Router,Route} from 'react-router-dom';
+import {Switch,BrowserRouter as Router,Route} from 'react-router-dom';
 import $ from'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
