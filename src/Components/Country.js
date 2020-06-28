@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Country.css';
 
 const Country=props=>{
     return(
