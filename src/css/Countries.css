@@ -20,7 +20,7 @@ table.countries-list tbody tr {
 }
 
 table.countries-list tbody tr:nth-child(even) {
-    background-color: #cfcfcf;
+    background-color: #a1a1a1;
 }
 
 @media (max-width:700px) {
