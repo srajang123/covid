@@ -8,6 +8,7 @@ import './App.css';
 import logo from './assets/logo.png';
 import Header from './Components/Header';
 import Countries from './Components/Countries';
+import Country from './Components/Country';
 import World from './Components/World';
 import About from './Components/About';
 import Home from './Components/Home';
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/'><Home/></Route>
         <Route path='/world'><World/></Route>
         <Route path='/countries'><Countries/></Route>
+        <Route path='/country'><Country/></Route>
         <Route path='/about'><About/></Route>
       </Switch> 
       </Router>
