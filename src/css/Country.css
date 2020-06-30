@@ -1,0 +1,41 @@
+.head h2 {
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #444;
+    text-decoration-color: #111;
+}
+
+.covid-col {
+    border: solid 2px #111;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    padding: 1% !important;
+    text-align: center;
+    box-shadow: 4px 4px #111;
+}
+
+.covid-col h3 {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.covid-col .value {
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+.covid-col .recover {
+    color: #050;
+}
+
+.covid-col .active {
+    color: #005;
+}
+
+.covid-col .death {
+    color: #500;
+}
